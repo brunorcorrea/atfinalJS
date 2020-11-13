@@ -1,0 +1,99 @@
+body{
+    font-family: 'Fira Code', 'Lucida Sans', Verdana, sans-serif;
+    background-color: rgba(224,242,224,0.85);
+}
+
+#formulario{
+    text-align: center;
+    margin: 1%;
+    padding: 1%;
+    border: 1px double rgba(6, 47, 85, 0.918);
+}
+
+input, #instrumento{
+    outline: none;
+    border: 1px double rgba(6, 47, 85, 0.918);
+    color: rgba(255, 254, 254, 0.973);
+    background-color: rgba(6, 47, 85, 0.6);
+    border-radius: 20px;
+    text-align: center;
+}
+
+.but{
+    padding:5px;
+}
+
+input:hover{
+    background-color: rgba(6, 47, 85, 0.9);
+}
+
+#msg{
+    text-align: center;
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+    border: 1px double rgba(6, 47, 85, 0.918);
+    background-color: rgba(6, 47, 85, 0.6);;
+    color: white;
+}
+
+.switch{
+    position: absolute;
+    margin-left: -9999px;
+    visibility: hidden;
+}
+
+.switch + label{
+    display: block;
+    position:relative;
+    cursor:pointer;
+    outline: none;
+    user-select: none;
+}
+
+#lesc{
+  padding: 2px;
+  width: 40px;
+  height: 20px;
+  background-color: #dddddd;
+  border-radius: 60px;
+}
+
+#esc + label:before,
+#esc + label:after {
+  display: block;
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  bottom: 1px;
+  content: '';
+}
+#esc + label:before {
+  right: 1px;
+  background-color: #f1f1f1;
+  border-radius: 1000px;
+  transition: all 0.4s;
+}
+#esc + label:after {
+  width: 16px;
+  background-color: #fff;
+  border-radius: 100%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: all 0.4s;
+}
+
+#esc:checked + label:before {
+    background-color: #8ce196;
+  }
+#esc:checked + label:after {
+    transform: translateX(26px);
+  }
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
