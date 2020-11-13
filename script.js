@@ -42,7 +42,7 @@ function cadastrar() {
     }
 
 document.getElementById("msg").textContent= " ";
-return false;
+return true;
 }
 
 function escuro(a){
