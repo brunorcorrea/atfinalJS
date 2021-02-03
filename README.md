@@ -1,2 +1,2 @@
-# (Acessar atividade final de JavaScript)[brunorcorrea.github.io/atfinalJS]
+#brunorcorrea.github.io/atfinalJS
 Repositório criado para armazenar a atividade final de Javascript de DAW2 ( Desenvolvimento de Aplicações Web )
